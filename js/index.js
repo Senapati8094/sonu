@@ -1,8 +1,8 @@
 (function () {
     
-    var easyOpt = {"time": 10, "moves": 30};
-    var mediumOpt = {"time": 5, "moves": 30};
-    var hardOpt = {"time": 2, "moves": 10};
+    var easyOpt = {"time": 5, "moves": 30};
+    var mediumOpt = {"time": 3, "moves": 30};
+    var hardOpt = {"time": 1, "moves": 10};
     var stageOpt = easyOpt;
     
     switch (Url.queryString("stage")) {
